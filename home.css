@@ -1,15 +1,10 @@
-#button:hover{
-    background-color: #304f5c;
-    transition: 0.5s ease;
-}
+
 
 h1{
     font-size: 250%;
 }
 
-a{
-    text-decoration: none;
-}
+
 
 section{
     margin-top: 70px;
@@ -17,9 +12,7 @@ section{
 
 
 
-.bluetext{
-    color: #3ab2e6;
-}
+
 
 .presentation{
     display: flex;

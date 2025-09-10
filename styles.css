@@ -14,6 +14,8 @@ html{
 }
 
 body{
+    display: flex;
+    flex-direction: column;
     background-color: #282c33;
     min-height: 100%;
     text-rendering: optimizeSpeed;
@@ -21,11 +23,31 @@ body{
     letter-spacing: 0.2px;
 }
 
+html,body{
+    height: 100%;
+    margin: 0;
+}
+
+
 .main{
+    flex: 1;
     margin: 100px 400px;
     display: flex;
     flex-direction: column;
     row-gap: 100px;
+}
+
+.bluetext{
+    color: #3ab2e6;
+}
+
+#button:hover{
+    background-color: #304f5c;
+    transition: 0.5s ease;
+}
+
+a{
+    text-decoration: none;
 }
 
 /* ===================== */
@@ -106,6 +128,7 @@ body{
 
 
 .footer{
+
     margin-top: auto;
     background-color: #22252b;
     width: 100%;
@@ -116,8 +139,3 @@ body{
     text-align: center;
 }
 
-.school_logo{
-    position: relative;
-    width: 50px;
-    align-self: center;
-}
